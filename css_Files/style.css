@@ -1,0 +1,131 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.top-body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../imgs/wall.jpg);
+    background-size: cover;
+    
+}
+header{
+    background-color: black;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    margin-top:10px;
+}
+.nav-items{
+    margin-top:15px;
+}
+nav i{
+    
+    color: white;
+    background-color: red;
+    padding:6px 4px;
+    border-radius:100%;
+    
+}
+nav p{
+    color:white;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Arial Narrow', sans-serif
+   
+}
+.about{
+    color:red;
+}
+ul{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.login{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: larger;
+    margin-top: 5px;
+}
+section{
+    color: white;
+    font-family: sans-serif;
+    margin: 170px;
+}
+section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+section p{
+    opacity: 0.7;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.gym-guy{
+    width:600px;
+    filter: brightness(0.6);
+    margin-right: 50px;
+}
+
+section div img{
+    width: 40px;
+    filter: grayscale(1) invert(1);
+    margin-bottom: -15px;
+    margin-inline: 20px;
+}
+section div button{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 12px 30px;
+    border-radius:3px;
+}
+section div a {
+    color:white;
+    text-decoration: none;
+    font-size: smaller;
+    opacity: 0.7;
+}
+.main-bottom{
+    margin-top: 50px;
+}
+.bef-footer{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+.bef-footer p{
+    opacity: 0.6;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.footer div{
+    width:350px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.footer div:hover{
+    box-shadow: 0px 0px 20px #e1e1e1;
+    border-radius: 6px;
+}
+.foot-sec p{
+    opacity: 0.6;
+    margin-top: 15px;
+}
+.footer{
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.foot-sec img{
+    width: 40px;
+    margin-bottom: 30px;
+}
